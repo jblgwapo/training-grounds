@@ -1,0 +1,113 @@
+<!--
+  John Brell G. Ladiero
+  Web Training Grounds
+  Copyright 2020
+-->
+
+
+
+<!-- This is how you create comments in html -->
+
+
+<!--
+The Basics
+
+<tag>   - this is an html opening tag
+</tag>  - this is an html closing tag
+<tag/>  - this is an html standalone tag
+
+<tag></tag> - Opening tags need to be closed
+<tag/>      - standalone tags closes itself
+
+<tag attribute="value">   - attributes are code/parameters inside the < >
+                          - we use attributes to modify or point out tags
+
+<tag> Contents </tag>     - contents are texts in between tags
+
+tip: html is basically all about tags and attributes and pure content with no special logic needed, you just need to be neat.
+
+Nesting
+tags can enclose another.
+
+simple example:
+  a phone in a box
+  <box>
+    <phone/>
+  </box>
+
+
+more example:
+
+<parent>
+
+  <children>
+    <grand-children>
+      <and-so-on/>
+    </grand-children>
+  </children>
+
+  <another-children>
+
+  </another-children>
+</parent>
+
+
+Always think about Readability.
+
+-->
+
+
+
+<!-- Document Type HTML -->
+<!DOCTYPE html>
+
+
+<html lang="en" dir="ltr">
+<!-- html tag is where the code is -->
+<!-- Set language so that browser supports it.-->
+
+  <!-- Head tag is where the browser will look for your setup codes. You can link your external codes here to make coding easier-->
+  <head>
+    <meta charset="utf-8">
+    <!-- meta tags are like browser parameters you can use it for search engine optimizations -->
+    <!-- search engine optimization (SEO) - Is basically to help search engines like google to find your website -->
+    <title>HTML Training Grounds</title>
+    <!-- title woud be the name of the tab or the window -->
+  </head>
+
+  <!-- Body tag is the viewport(GUI) of your website keep it short to prevent lags. 1000 lines is short enough -->
+  <body>
+
+    <!-- div or "division" tags is a basic way to divide your code-->
+    <div class="modal">
+      <!-- the "class" attribute is a pointer for css. use this if you have multiple items sharing the same style/layout/design -->
+      <div id="welcome">
+        <!-- the "id" attribute is a specific css pointer. use this if you have a specific style for this tag-->
+        <h1>Welcome!</h1>
+        <!-- h1 is a text header. -->
+        <button type="button" name="button">
+          Start Button
+        </button>
+      </div><!--End of welcome div-->
+    </div><!-- End of modal div-->
+
+
+    <!-- Header is a special tag to create headers, it acts like div but has better readability -->
+    <header>
+      Header
+    </header>
+
+    <main>
+
+    </main>
+
+    <aside class="">
+      <h2>Aside</h2>
+      <div class="">
+        This is an aside
+      </div>
+    </aside>
+    <h1>Welcome!</h1>
+
+  </body>
+</html>
